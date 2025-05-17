@@ -1,1 +1,49 @@
 @charset "UTF-8";
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    background-image: url(../imagens/eastman-childs-CEtIM994vaI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+section#login{
+ 
+    background-color: white;
+    width: 250px;
+    height: 340px;
+    border-radius: 10px;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding: 10px;
+}
+
+.formulario form input{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 5px;
+  
+}
